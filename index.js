@@ -14,6 +14,6 @@ app.get('/err', function (req, res) {
   res.json(500, {err: 'You failed!'});
 });
 
-app.listen(3001, function(err) {
+app.listen(3000, function(err) {
   console.log('hello nokia');
 });
